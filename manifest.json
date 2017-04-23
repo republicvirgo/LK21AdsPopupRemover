@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "LayarKaca21 Ads Remover",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["http://lk21.me/*"],
+            "js": ["content_script.js"]
+        }
+    ],
+    "browser_action": {
+        "default_title": "LayarKaca21 Ads Remover"
+    },
+    "permissions": [
+        "tabs", 
+        "http://lk21.me/*"
+    ]
+}
